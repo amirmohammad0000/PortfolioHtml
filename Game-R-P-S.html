@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>my-site</title>
+   <!-- Start Bootstrap -->
+   <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet">-->
+   <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"></script>-->
+   <!--    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js"></script>-->
+   <!--    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js"></script>-->
+   <!-- End Bootstrap -->
+   <!-- Start Vue Js  -->
+   <!--    <script src="https://unpkg.com/vue@3.0.5/dist/vue.global.js"></script>-->
+   <!-- End Vue Js  -->
+   <!-- Start Jquery  -->
+   <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+   <!-- End Jquery -->
+   <!--  Start Font Awesome -->
+   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+   <!--  End Font Awesome -->
+   <!--  Start Custom Js  -->
+   <!--    <script src="Custom css js/script.js"></script>-->
+   <!--  End Custom Js -->
+   <!--  Start Custom Css  -->
+   <!--    <link rel="stylesheet" href="Custom css js/style.css">-->
+   <!--  End Custom Css  -->
+</head>
+
+<body>
+<style>
+   #player,
+   #computer,
+   #scoreevent,
+   #scoreplayer,
+   #scorecomputer,
+   #tie {
+      border: 2px solid black;
+      width: 200px;
+      height: 60px;
+      margin: 10px;
+   }
+
+   #playergues1,
+   #playergues2,
+   #playergues3 {
+      width: 50px;
+      height: 50px;
+      display: none;
+   }
+
+   label {
+      background-color: antiquewhite;
+      padding: 10px 20px;
+      font-family: sans-serif, Arial;
+      font-size: 50px;
+      border: 2px solid black;
+      border-radius: 100px;
+   }
+
+   .labels1 {
+      position: relative;
+      bottom: 10px;
+   }
+
+   .labels2 {
+      position: relative;
+      top: 5px;
+   }
+
+   .labels3 {
+      position: relative;
+      top: 20px;
+   }
+
+   .labelsdisplay {
+      display: none;
+      float: right;
+   }
+
+   .main-scores {
+      float: left;
+   }
+
+   label:hover {
+      background-color: burlywood;
+   }
+
+   label:active {
+      background-color: lightgreen;
+   }
+
+   #div_endgame {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+   }
+
+   #endgame {
+      font-size: 50px;
+      font-family: sans-serif, Arial;
+      position: fixed;
+      top: 0;
+      padding: 100px;
+      margin: 0 auto;
+   }
+</style>
+<h1>Welcome To Game Rock Paper Scissors :</h1>
+
+<label class="labels labels1" for="playergues1"><i class="fas fa-hand-rock"></i></label>
+<input type="radio" id="playergues1" name="radiogame" value="rock" onclick="func()"> <br> <br>
+
+
+<label class="labels labels2" for="playergues2"><i class="fas fa-hand-paper"></i></label>
+<input type="radio" id="playergues2" name="radiogame" value="paper" onclick="func()"> <br> <br>
+
+
+<label class="labels labels3" for="playergues3"><i class="fas fa-hand-scissors"></i></label>
+<input type="radio" id="playergues3" name="radiogame" value="scissors" onclick="func()"> <br> <br>
+
+
+<h1>Score : </h1>
+
+<div class="main-scores">
+   <span>Player : </span>
+   <div id="player"></div>
+</div>
+
+
+<div class="main-scores">
+   <span>Computer : </span>
+   <div id="computer"></div>
+</div>
+
+
+<div class="main-scores">
+   <span>score : </span>
+   <div id="scoreevent"></div>
+</div>
+
+
+<div class="main-scores">
+   <span>scorePlayer : </span>
+   <div id="scoreplayer"></div>
+</div>
+
+
+<div class="main-scores">
+   <span>scoreComputer : </span>
+   <div id="scorecomputer"></div>
+</div>
+
+
+<div class="main-scores">
+   <span>Tie : </span>
+   <div id="tie"></div>
+</div>
+
+<div id="div_endgame">
+   <h1 id="endgame"></h1>
+</div>
+</body>
+<script>
+   /* Start let */
+   let playerscore = 0;
+   let computerscore = 0;
+   let tiescore = 0;
+
+   /* End let */
+   function func() {
+      /* Start let */
+      let playerresult = document.getElementById("player");
+      let computerresult = document.getElementById("computer");
+      let scoreevent = document.getElementById("scoreevent");
+      let scoreplayer = document.getElementById("scoreplayer");
+      let scorecomputer = document.getElementById("scorecomputer");
+      let tie = document.getElementById("tie");
+      let endgame = document.getElementById("endgame");
+      let labels = $(".labels");
+      let playergues1 = $("#playergues1:checked").val();
+      let playergues2 = $("#playergues2:checked").val();
+      let playergues3 = $("#playergues3:checked").val();
+      let math = Math.floor(Math.random() * 3);
+      let computer = "";
+      let player = "";
+      /* End let */
+
+      /* Start if Math */
+      if (math === 0) {
+         computer += "rock";
+      } else if (math === 1) {
+         computer += "paper";
+      } else if (math === 2) {
+         computer += "scissors";
+      }
+      computerresult.innerHTML = computer;
+      /* End if Math */
+
+
+      /* Start if Player */
+      if (playergues1 === "rock") {
+         player += "rock";
+      } else if (playergues2 === "paper") {
+         player += "paper";
+      } else if (playergues3 === "scissors") {
+         player += "scissors";
+      }
+      playerresult.innerHTML = player;
+      /* End if Player */
+
+
+      /* Start if main */
+      if (player === "rock" && computer === "rock") {
+         scoreevent.innerHTML = "Tie!";
+         tiescore++;
+      } else if (player === "rock" && computer === "paper") {
+         scoreevent.innerHTML = "Computer wins!";
+         computerscore++;
+      } else if (player === "rock" && computer === "scissors") {
+         scoreevent.innerHTML = "Player Wins!";
+         playerscore++;
+      }
+
+      if (player === "paper" && computer === "rock") {
+         scoreevent.innerHTML = "Player Wins!";
+         playerscore++;
+      } else if (player === "paper" && computer === "paper") {
+         scoreevent.innerHTML = "Tie!";
+         tiescore++
+      } else if (player === "paper" && computer === "scissors") {
+         scoreevent.innerHTML = "Computer wins!";
+         computerscore++;
+      }
+
+      if (player === "scissors" && computer === "rock") {
+         scoreevent.innerHTML = "Computer Wins!";
+         computerscore++;
+      } else if (player === "scissors" && computer === "paper") {
+         scoreevent.innerHTML = "Player Wins!";
+         playerscore++;
+      } else if (player === "scissors" && computer === "scissors") {
+         scoreevent.innerHTML = "Tie!";
+         tiescore++;
+      }
+
+      scoreplayer.innerHTML = playerscore;
+      scorecomputer.innerHTML = computerscore;
+      tie.innerHTML = tiescore;
+      /* End if main */
+
+      /* Start if End Game */
+      if (playerscore == 3 || computerscore == 3) {
+         labels.addClass("labelsdisplay");
+         if (playerscore == 3) {
+            endgame.style.backgroundColor = "antiquewhite";
+            endgame.innerHTML = "Player Is Wins : " + playerscore;
+            setInterval(() => {
+               location.reload();
+            }, 3000);
+         } else if (computerscore == 3) {
+            endgame.style.backgroundColor = "antiquewhite";
+            endgame.innerHTML = "Computer Is Wins : " + computerscore;
+            setInterval(() => {
+               location.reload();
+            }, 3000);
+         }
+      }
+      /* End if End Game */
+   }
+</script>
+
+</html>
