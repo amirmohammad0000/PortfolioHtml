@@ -422,7 +422,7 @@
 .div_progress {
     width: 350px;
     height: 10px;
-    padding: 5px;
+    padding: 5px 0;
     border-style: solid;
     border-width: 2px;
     border-color: black;
@@ -433,7 +433,7 @@
 
 .div_progress_skills {
     background-color: #00b4ff;
-    margin: -6px;
+    margin: -6px 0;
     height: 22px;
     border-radius: 100px;
 }
