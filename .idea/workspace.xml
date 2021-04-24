@@ -8,12 +8,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abcd6f48-ac63-47e3-9be5-f34850666a7d" name="Default Changelist" comment="https://github.com/amirmohammad0000/Portfolio.git">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Custom-css-js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Custom-css-js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/Custom-css-js/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Custom-css-js/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
-    </list>
+    <list default="true" id="abcd6f48-ac63-47e3-9be5-f34850666a7d" name="Default Changelist" comment="https://github.com/amirmohammad0000/Portfolio.git" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -99,7 +94,7 @@
       <workItem from="1619202810051" duration="194000" />
       <workItem from="1619203156213" duration="142000" />
       <workItem from="1619203913631" duration="181000" />
-      <workItem from="1619275231429" duration="296000" />
+      <workItem from="1619275231429" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="https://github.com/amirmohammad0000/Portfolio.git">
       <created>1617734368512</created>
@@ -185,7 +180,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619204048018</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="https://github.com/amirmohammad0000/Portfolio.git">
+      <created>1619275659657</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1619275659658</updated>
+    </task>
+    <task id="LOCAL-00014" summary="https://github.com/amirmohammad0000/Portfolio.git">
+      <created>1619275714476</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1619275714476</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
