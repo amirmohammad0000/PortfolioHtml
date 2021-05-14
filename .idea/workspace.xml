@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project-Php-Storm" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project-html" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -95,6 +95,7 @@
       <workItem from="1619203156213" duration="142000" />
       <workItem from="1619203913631" duration="181000" />
       <workItem from="1619275231429" duration="751000" />
+      <workItem from="1620495059247" duration="120000" />
     </task>
     <task id="LOCAL-00001" summary="https://github.com/amirmohammad0000/Portfolio.git">
       <created>1617734368512</created>
@@ -201,7 +202,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619275949460</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="https://github.com/amirmohammad0000/Portfolio.git">
+      <created>1620495144567</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1620495144567</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

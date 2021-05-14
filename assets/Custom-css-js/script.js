@@ -198,7 +198,7 @@ function progress_bar() {
       div_progress_5.style.width = "70%";
       div_progress_6.style.width = "80%";
       div_progress_7.style.width = "40%";
-      div_progress_8.style.width = "100%";
+      div_progress_8.style.width = "60%";
       div_progress_9.style.width = "90%";
       div_progress_10.style.width = "70%";
       div_progress_11.style.width = "60%";
