@@ -407,6 +407,7 @@
 
 .sect_skills_sub {
     padding: 50px 0;
+    width: 32%;
 }
 
 .div_skills {
@@ -448,7 +449,8 @@
     }
 
     .sect_skills_sub {
-        padding: 0;
+        padding: 20px 0;
+        width: 100%;
     }
 }
 

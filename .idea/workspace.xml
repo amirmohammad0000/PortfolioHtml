@@ -8,7 +8,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abcd6f48-ac63-47e3-9be5-f34850666a7d" name="Default Changelist" comment="https://github.com/amirmohammad0000/Portfolio.git" />
+    <list default="true" id="abcd6f48-ac63-47e3-9be5-f34850666a7d" name="Default Changelist" comment="https://github.com/amirmohammad0000/Portfolio.git">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Custom-css-js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Custom-css-js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/Custom-css-js/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/Custom-css-js/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,8 +35,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/index.htm" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/assets/Custom-css-js/style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/assets/Custom-css-js/script.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/assets/Custom-css-js/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qo7fbKXljWbE0EFMgHituO1LWO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +52,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Project-html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -96,6 +101,8 @@
       <workItem from="1619203913631" duration="181000" />
       <workItem from="1619275231429" duration="751000" />
       <workItem from="1620495059247" duration="120000" />
+      <workItem from="1621015893172" duration="142000" />
+      <workItem from="1621188362087" duration="1846000" />
     </task>
     <task id="LOCAL-00001" summary="https://github.com/amirmohammad0000/Portfolio.git">
       <created>1617734368512</created>
@@ -209,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620495144567</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="https://github.com/amirmohammad0000/Portfolio.git">
+      <created>1621015983509</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1621015983509</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

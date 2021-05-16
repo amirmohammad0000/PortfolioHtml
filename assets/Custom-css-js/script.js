@@ -172,6 +172,17 @@ function progress_bar() {
    let div_progress_14 = document.querySelector(".div_progress_14");
    let div_progress_15 = document.querySelector(".div_progress_15");
    let div_progress_16 = document.querySelector(".div_progress_16");
+   let div_progress_17 = document.querySelector(".div_progress_17");
+   let div_progress_18 = document.querySelector(".div_progress_18");
+   let div_progress_19 = document.querySelector(".div_progress_19");
+   let div_progress_20 = document.querySelector(".div_progress_20");
+   let div_progress_21 = document.querySelector(".div_progress_21");
+   let div_progress_22 = document.querySelector(".div_progress_22");
+   let div_progress_23 = document.querySelector(".div_progress_23");
+   let div_progress_24 = document.querySelector(".div_progress_24");
+   let div_progress_25 = document.querySelector(".div_progress_25");
+   let div_progress_26 = document.querySelector(".div_progress_26");
+   let div_progress_27 = document.querySelector(".div_progress_27");
 
 
    div_progress_1.style.width = "0%";
@@ -190,6 +201,17 @@ function progress_bar() {
    div_progress_14.style.width = "0%";
    div_progress_15.style.width = "0%";
    div_progress_16.style.width = "0%";
+   div_progress_17.style.width = "0%";
+   div_progress_18.style.width = "0%";
+   div_progress_19.style.width = "0%";
+   div_progress_20.style.width = "0%";
+   div_progress_21.style.width = "0%";
+   div_progress_22.style.width = "0%";
+   div_progress_23.style.width = "0%";
+   div_progress_24.style.width = "0%";
+   div_progress_25.style.width = "0%";
+   div_progress_26.style.width = "0%";
+   div_progress_27.style.width = "0%";
    if (document.documentElement.scrollTop >= 1300 || document.body.scrollTop >= 1300) {
       div_progress_1.style.width = "95%";
       div_progress_2.style.width = "90%";
@@ -197,16 +219,27 @@ function progress_bar() {
       div_progress_4.style.width = "90%";
       div_progress_5.style.width = "70%";
       div_progress_6.style.width = "80%";
-      div_progress_7.style.width = "40%";
-      div_progress_8.style.width = "60%";
-      div_progress_9.style.width = "90%";
-      div_progress_10.style.width = "70%";
-      div_progress_11.style.width = "60%";
-      div_progress_12.style.width = "95%";
-      div_progress_13.style.width = "80%";
-      div_progress_14.style.width = "70%";
-      div_progress_15.style.width = "90%";
-      div_progress_16.style.width = "80%";
+      div_progress_7.style.width = "50%";
+      div_progress_8.style.width = "50%";
+      div_progress_9.style.width = "%";
+      div_progress_10.style.width = "90%";
+      div_progress_11.style.width = "70%";
+      div_progress_12.style.width = "60%";
+      div_progress_13.style.width = "95%";
+      div_progress_14.style.width = "80%";
+      div_progress_15.style.width = "70%";
+      div_progress_16.style.width = "95%";
+      div_progress_17.style.width = "90%";
+      div_progress_18.style.width = "80%";
+      div_progress_19.style.width = "%";
+      div_progress_20.style.width = "%";
+      div_progress_21.style.width = "%";
+      div_progress_22.style.width = "%";
+      div_progress_23.style.width = "%";
+      div_progress_24.style.width = "%";
+      div_progress_25.style.width = "%";
+      div_progress_26.style.width = "%";
+      div_progress_27.style.width = "%";
 
 
       div_progress_1.style.transition = "width 2s ease-in-out";
@@ -225,6 +258,17 @@ function progress_bar() {
       div_progress_14.style.transition = "width 2s ease-in-out";
       div_progress_15.style.transition = "width 2s ease-in-out";
       div_progress_16.style.transition = "width 2s ease-in-out";
+      div_progress_17.style.transition = "width 2s ease-in-out";
+      div_progress_18.style.transition = "width 2s ease-in-out";
+      div_progress_19.style.transition = "width 2s ease-in-out";
+      div_progress_20.style.transition = "width 2s ease-in-out";
+      div_progress_21.style.transition = "width 2s ease-in-out";
+      div_progress_22.style.transition = "width 2s ease-in-out";
+      div_progress_23.style.transition = "width 2s ease-in-out";
+      div_progress_24.style.transition = "width 2s ease-in-out";
+      div_progress_25.style.transition = "width 2s ease-in-out";
+      div_progress_26.style.transition = "width 2s ease-in-out";
+      div_progress_27.style.transition = "width 2s ease-in-out";
    }
 }
 
