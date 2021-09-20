@@ -207,11 +207,11 @@ function progress_bar() {
       div_progress_sect_1_6.style.width = "80%";
       div_progress_sect_1_7.style.width = "60%";
       div_progress_sect_1_8.style.width = "50%";
-      div_progress_sect_1_9.style.width = "%";
-      div_progress_sect_1_10.style.width = "80%";
+      div_progress_sect_1_9.style.width = "80%";
+      div_progress_sect_1_10.style.width = "70%";
       div_progress_sect_2_1.style.width = "90%";
       div_progress_sect_2_2.style.width = "70%";
-      div_progress_sect_2_3.style.width = "60%";
+      div_progress_sect_2_3.style.width = "80%";
       div_progress_sect_2_4.style.width = "95%";
       div_progress_sect_2_5.style.width = "80%";
       div_progress_sect_2_6.style.width = "70%";

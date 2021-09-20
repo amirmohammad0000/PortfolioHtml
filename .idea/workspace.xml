@@ -99,6 +99,7 @@
       <workItem from="1621015893172" duration="142000" />
       <workItem from="1621188362087" duration="2116000" />
       <workItem from="1621851997811" duration="1038000" />
+      <workItem from="1621926860626" duration="283000" />
     </task>
     <task id="LOCAL-00001" summary="https://github.com/amirmohammad0000/Portfolio.git">
       <created>1617734368512</created>
@@ -240,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621853027867</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="https://github.com/amirmohammad0000/Portfolio.git">
+      <created>1621927106564</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1621927106564</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
