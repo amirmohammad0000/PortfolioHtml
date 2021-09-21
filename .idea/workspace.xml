@@ -8,7 +8,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="abcd6f48-ac63-47e3-9be5-f34850666a7d" name="Default Changelist" comment="https://github.com/amirmohammad0000/Portfolio.git" />
+    <list default="true" id="abcd6f48-ac63-47e3-9be5-f34850666a7d" name="Default Changelist" comment="https://github.com/amirmohammad0000/Portfolio.git">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomCssJs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomCssJs/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/CustomCssJs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomCssJs/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,9 +34,9 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/assets/Custom-css-js/style.css" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomCssJs/style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.htm" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/assets/Custom-css-js/script.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CustomCssJs/script.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qo7fbKXljWbE0EFMgHituO1LWO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -101,6 +106,7 @@
       <workItem from="1621851997811" duration="1038000" />
       <workItem from="1621926860626" duration="283000" />
       <workItem from="1632140022143" duration="424000" />
+      <workItem from="1632210169784" duration="268000" />
     </task>
     <task id="LOCAL-00001" summary="https://github.com/amirmohammad0000/Portfolio.git">
       <created>1617734368512</created>
@@ -263,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632140279441</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="https://github.com/amirmohammad0000/Portfolio.git">
+      <created>1632210350583</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1632210350583</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
