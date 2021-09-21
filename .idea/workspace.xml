@@ -10,9 +10,6 @@
   <component name="ChangeListManager">
     <list default="true" id="abcd6f48-ac63-47e3-9be5-f34850666a7d" name="Default Changelist" comment="https://github.com/amirmohammad0000/Portfolio.git">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomCssJs/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomCssJs/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CustomCssJs/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/CustomCssJs/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.htm" beforeDir="false" afterPath="$PROJECT_DIR$/index.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -106,7 +103,7 @@
       <workItem from="1621851997811" duration="1038000" />
       <workItem from="1621926860626" duration="283000" />
       <workItem from="1632140022143" duration="424000" />
-      <workItem from="1632210169784" duration="268000" />
+      <workItem from="1632210169784" duration="334000" />
     </task>
     <task id="LOCAL-00001" summary="https://github.com/amirmohammad0000/Portfolio.git">
       <created>1617734368512</created>
@@ -276,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1632210350583</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="https://github.com/amirmohammad0000/Portfolio.git">
+      <created>1632210488647</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1632210488647</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
