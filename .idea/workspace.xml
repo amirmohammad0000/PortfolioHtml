@@ -29,9 +29,9 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/assets/Custom-css-js/style.css" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/index.htm" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/assets/Custom-css-js/script.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/assets/Custom-css-js/style.css" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1qo7fbKXljWbE0EFMgHituO1LWO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -47,7 +47,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Project_electron" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -100,6 +100,7 @@
       <workItem from="1621188362087" duration="2116000" />
       <workItem from="1621851997811" duration="1038000" />
       <workItem from="1621926860626" duration="283000" />
+      <workItem from="1632140022143" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="https://github.com/amirmohammad0000/Portfolio.git">
       <created>1617734368512</created>
@@ -248,7 +249,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621927106564</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="https://github.com/amirmohammad0000/Portfolio.git">
+      <created>1632140068895</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1632140068895</updated>
+    </task>
+    <task id="LOCAL-00023" summary="https://github.com/amirmohammad0000/Portfolio.git">
+      <created>1632140279441</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1632140279441</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
