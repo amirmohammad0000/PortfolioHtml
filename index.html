@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سایت شخصی امیر محمد کوشکیان</title>
+    <!-- Start Font Awesome -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <!-- End Font Awesome -->
+    <!-- Start Custom Css -->
+    <link rel="stylesheet" href="./Assets/CustomCssJs/Style.css">
+    <!-- End Custom Css -->
+</head>
+<body id="body" onload="scroll_bar()" onscroll="progress_bar()">
+    <section class="sect_body">
+        <!-- Start Section copy -->
+        <section>
+            <div class="copy">
+                <h1 class="h1_copy"></h1>
+            </div>
+        </section>
+        <!-- End Section copy -->
+        <!-- Start Section Hamburger Menu -->
+        <section>
+            <!-- Start Section Label -->
+            <input type="checkbox" id="input_checkbox_1" hidden>
+            <label for="input_checkbox_1" class="but_hamburger_menu">
+                <div class="div_lbl lbl_1"></div>
+                <div class="div_lbl lbl_2"></div>
+                <div class="div_lbl lbl_3"></div>
+            </label>
+            <!-- End Section Label -->
+            <!-- Start Section Menu -->
+            <section class="sec_hamburger_menu">
+                <section class="link_hamburger_menu">
+                    <nav>
+                        <ul>
+                            <li><a href="#">خانه -</a></li>
+                            <li><a href="#about_me">درباره من -</a></li>
+                            <li><a href="#skills">مهارت ها -</a></li>
+                            <li><a href="#contact_us">ارتباط با من -</a></li>
+                            <li><a href="#resume">رزومه من -</a></li>
+                            <li>
+                                <a href="#">
+                                    پروژه های من -
+                                    <ul class="ul_li_game_2">
+                                        <li>
+                                            <a href="https://github.com/amirmohammad0000/PortfolioHtml" target="_blank">وب سایت شخصی</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/amirmohammad0000/VPNWithReactNative" target="_blank">فیلتر شکن موبایل</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/amirmohammad0000/Editor-Code" target="_blank">ادیتور کد دسکتاپ</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/amirmohammad0000/VPNWithElectron" target="_blank">فیلتر شکن دسکتاپ</a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </section>
+            <!-- End Section Menu -->
+        </section>
+        <!-- End Section Hamburger Menu -->
+        <!-- Start Section Header -->
+        <header id="header">
+            <section>
+                <div class="div_header">
+                    <h1>Amir Mohammad</h1>
+                </div>
+            </section>
+
+            <div class="div_theme">
+                <input type="checkbox" id="input_checkbox_2" checked hidden>
+                <label for="input_checkbox_2" class="fas fa-moon i_theme_dark" onclick="theme()"></label>
+            </div>
+        </header>
+        <!-- End Section Header -->
+        <!-- Start Section Main -->
+        <main>
+            <section id="main_sect">
+                <section id="sect_mouse_move">
+                    <section class="div_image_one">
+                        <img src="./Assets/Images/Globe.svg" alt="global.svg">
+                    </section>
+
+                    <section class="div_image_two">
+                        <img src="./Assets/Images/Map.svg" alt="map.svg" usemap="#image-map">
+
+                        <map name="image-map">
+                            <area coords="10,460,41,348,125,244,225,160,336,83,445,33,555,11,676,-1,848,-1,1002,29,1156,95
+                        ,1282,177,1385,274,1458,399,1483,458,1237,457,1212,362,1159,277,1068,217,898,255,743,223,627,255
+                        ,509,222,422,225,329,276,274,347,261,412,227,458" onmousemove="mouse_move()" shape="poly"
+                                  alt="image-map">
+                        </map>
+                    </section>
+                </section>
+
+
+                <div class="main_div">
+                    <h2 class="main_h h2_1">سلام من</h2>
+                    <h1 class="h1_2"></h1>
+                    <h2 class="main_h">هستم</h2>
+                </div>
+            </section>
+
+
+            <section id="section_mouse_move" onmousemove="mouse_move_circle()">
+                <section id="about_me">
+                    <section class="sect_h1">
+                        <div>
+                            <h1 class="h1_about_me">درباره من</h1>
+                        </div>
+                    </section>
+                    <section class="about_me">
+                        <div class="div_about_me">
+                            <p class="h_p_about_me">
+                            سلام من امیر محمد کوشکیان هستم. متولد سال 1381 و میخواهم در زمینه برنامه نویسی وب و برنامه نویسی برای موبایل با ری اکت نیتیو و برنامه نویسی دسکتاپ با الکترون فعالیت داشته باشم و در حال یادگیری تکنولوژی های مورد علاقه خود هستم
+                            </p>
+                            <h3 class="h_p_about_me">
+                                نام:
+                                <span class="span_about_me">امیر محمد کوشکیان</span>
+                            </h3>
+                            <h3 class="h_p_about_me">
+                                تاریخ تولد:
+                                <span class="span_about_me">21اسفند1381</span>
+                            </h3>
+                            <h3 class="h_p_about_me">
+                                <span class="span_about_me u_s" onclick="email_copy()">koshkian1000@gmail.com</span>:ایمیل
+                            </h3>
+                        </div>
+                    </section>
+                </section>
+
+
+                <section id="skills">
+                    <div class="div_h1">
+                        <h1>مهارت ها</h1>
+                    </div>
+
+
+                    <section class="sect_skills_main">
+                        <section class="sect_skills_sub">
+                            <div class="div_skills">
+                                <span class="span_skills">Html</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_1 div_progress_skills">95%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Css</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_2 div_progress_skills">90%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Sass</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_3 div_progress_skills">80%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Java Script</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_4 div_progress_skills">90%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Php</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_5 div_progress_skills">70%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Sql</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_6 div_progress_skills">80%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Python</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_7 div_progress_skills">60%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">C++</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_8 div_progress_skills">50%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">C#</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_9 div_progress_skills">60%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">SqLite</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_10 div_progress_skills">80%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">MySql</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_11 div_progress_skills">70%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">SqlServer</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_1_12 div_progress_skills">60%</div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                        <section class="sect_skills_sub">
+                            <div class="div_skills">
+                                <span class="span_skills">BootStrap</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_1 div_progress_skills">90%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Jquery</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_2 div_progress_skills">70%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Electron</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_3 div_progress_skills">80%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Laravel</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_4 div_progress_skills">95%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Vue Js</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_5 div_progress_skills">80%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Kivy</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_6 div_progress_skills">70%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Kivy MD</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_7 div_progress_skills">95%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">React</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_8 div_progress_skills">90%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">React Native</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_9 div_progress_skills">80%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">Native Base</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_10 div_progress_skills">90%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">NodeJs</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_11 div_progress_skills">60%</div>
+                                </div>
+                            </div>
+
+                            <div class="div_skills">
+                                <span class="span_skills">WPF</span>
+                                <div class="div_progress">
+                                    <div class="div_progress_sect_2_12 div_progress_skills">70%</div>
+                                </div>
+                            </div>
+                        </section>
+
+
+                    </section>
+                </section>
+
+                <section id="contact_us">
+                    <section class="sect_contact_us">
+                        <div class="div_contact_us">
+                            <h1 class="h1_contact_us_1">ارتباط با من</h1>
+                            <h1 class="h1_contact_us_2">
+                                <i class="fas fa-paper-plane"></i>
+                            </h1>
+                            <h1 class="h1_contact_us_3" onclick="email_copy()">
+                                koshkian1000@gmail.com
+                                <span class="span_contact_us_1">:ایمیل</span>
+                            </h1>
+                        </div>
+                    </section>
+
+                    <section class="sect_contact_us">
+                        <div class="div_contact_us">
+                            <h1 class="h1_contact_us_1">ارتباط با من</h1>
+                            <h1 class="h1-contact_us_4">
+                                لطفا از این ایمیل فقط برای سفارش پروژه استفاده
+                                کنید
+                            </h1>
+                            <h1 class="h1_contact_us_2">
+                                <i class="fas fa-paper-plane"></i>
+                            </h1>
+                            <h1 class="h1_contact_us_3" onclick="email_copy()">
+                                amirmohammadproject@gmail.com
+                                <span class="span_contact_us_2">:ایمیل</span>
+                            </h1>
+                        </div>
+                    </section>
+                </section>
+
+
+                <section class="sect_resume" id="resume">
+                    <div class="div_resume">
+                        <div class="div_resume_a">
+                            <a href="Assets/Resume/Resume.pdf" target="_blank" class="div_a">
+                                Resume
+                                My
+                            </a>
+                        </div>
+                        <div class="timer">
+                            <h1 id="h1_timer">0:0:0</h1>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <!-- End Section Main -->
+        <!-- Start Section Footer -->
+        <footer class="footer">
+            <section>
+                <div class="div_footer_1">
+                    <p>
+                        Copyright ©
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        All rights reserved
+                    </p>
+                </div>
+                <div class="div_footer_2">
+                    <nav>
+                        <ul>
+                            <li><a href="#">خانه</a></li>
+                            <li><a href="#about_me">درباره من</a></li>
+                            <li><a href="#skills">مهارت ها</a></li>
+                            <li><a href="#contact_us">ارتباط با من</a></li>
+                            <li><a href="#resume">رزومه من</a></li>
+                            <li>
+                                <a href="#">
+                                    پروژه های من
+                                    <ul class="ul_li_game_2">
+                                        <li>
+                                            <a href="https://github.com/amirmohammad0000/PortfolioHtml" target="_blank">وب سایت شخصی</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/amirmohammad0000/VPNWithReactNative" target="_blank">فیلتر شکن موبایل</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/amirmohammad0000/Editor-Code" target="_blank">ادیتور کد دسکتاپ</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://github.com/amirmohammad0000/VPNWithElectron" target="_blank">فیلتر شکن دسکتاپ</a>
+                                        </li>
+                                    </ul>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+        </footer>
+        <!-- End Section Footer -->
+    </section>
+
+
+    <section>
+        <!-- Start Custom Js -->
+        <script src="./Assets/CustomCssJs/Script.js"></script>
+        <!-- End Custom Js -->
+    </section>
+</body>
+</html>
